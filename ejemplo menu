@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//declaracion de variable 
+	int opcion;
+	do{
+		cout << "Menu" << endl;
+		cout << "1. Suma de numero" << endl;
+		cout << "2, Ver si un numero es positivo o negativo" << endl;
+		cout << "3. Fctorial de un numero" << endl;
+		cout << "Escriba la opcion que desea realizar" << endl;
+		cin >> opcion;
+
+		switch (opcion)
+		{
+		case 1:
+
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		default:
+			break;
+		}
+
+
+	} while (opcion != 0);
+
+
+	return 0;
+
+}
